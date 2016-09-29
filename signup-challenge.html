@@ -1,13 +1,19 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8" name="description" content="Signup page challenge for Thinkful's front end web development course">
-    <link rel="stylesheet" type="text/css" href="signup-page.css">
-    <title>Thinkful Signup Page Challenge</title>
-  </head>
-  <body>
-    <img class="logo" src="logo.png" alt="AnalogSea logo">
-    <p>hey</p>
-    <form class="signup-form" action="/signup/" method="post">
+<head>
+  <meta charset="utf-8" name="description" content="Signup page challenge for Thinkful's front end web development course">
+  <link rel="stylesheet" type="text/css" href="signup-page.css">
+  <title>Thinkful Signup Page Challenge</title>
+</head>
+<body>
+  <img class="logo" src="logo.png" alt="AnalogSea logo">
+  <form class="signup-form" action="/signup/" method="post">
+    <legend>Sign Up</legend>
+    <fieldset name="sign-up">
+      <label for="email">Email</label>
+      <input type="email" name="email" id="email" placeholder="foo@bar.com"/>
+      <label for="password">Password</label>
+      <input type="password" name="password" placeholder="1234passw0rd"/>
+    </fieldset>
   </body>
-</html>
+  </html>
