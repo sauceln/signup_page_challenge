@@ -11,10 +11,15 @@
     <legend>Sign Up</legend>
     <fieldset name="sign-up">
       <label for="email">Email</label>
-      <input type="email" name="email" id="email" placeholder="foo@bar.com"/>
+      <input type="email" name="email" placeholder="foo@bar.com" required/>
       <label for="password">Password</label>
-      <input type="password" name="password" placeholder="1234passw0rd"/>
-      <button type="sign up">Sign Up</button>
+      <input type="password" name="password" placeholder="1234passw0rd" required/>
+      <button type="submit">Sign Up</button>
+      <a href="/forgot-password/new">Forgot password?</a>
     </fieldset>
-  </body>
-  </html>
+  </form>
+  <p>Already have an account?
+    <a href="/login">Log in</a>
+  </p>
+</body>
+</html>
