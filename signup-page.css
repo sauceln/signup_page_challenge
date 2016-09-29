@@ -11,6 +11,10 @@ body {
   font-family: 'Roboto', helvetica, sans-serif;
 }
 
+body * {
+  box-sizing: border-box;
+}
+
 legend {
   font-size: 35px;
   margin-left: auto;
@@ -30,6 +34,7 @@ legend {
 
 fieldset {
   border: none;
+  padding: 0px;
 }
 
 input {
